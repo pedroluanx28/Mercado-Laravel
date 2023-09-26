@@ -27,7 +27,7 @@
             <x-side-bar />
             <div class="container pt-3">
                 <div class="d-flex flex-row justify-content-between align-items-center mb-3">
-                    <h3>Categorias</h3>
+                    <h3>Categoriasss</h3>
                 </div>
                 @foreach ($categories as $category)
                     <div class="card col-12 border-2 mb-3">
