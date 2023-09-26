@@ -24,6 +24,8 @@ Route::get('/cadcategory', function () {
     return view('/Pages/Form-categories');
 })->name('form.categories');
 
+Route::get('/indexCategory', [CategoriesController::class, 'index'])->name('index.categories'); 
+
 Route::post('/storeCategory', [CategoriesController::class, 'store'])->name('store.categories');
 
 //Rotas de Auth

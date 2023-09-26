@@ -34,7 +34,7 @@
             </li>
         </a>
 
-        <a href="#">
+        <a href={{ route('index.categories') }}>
             <li class="list-group-item text-white bg-transparent border-0 text-nowrap d-flex align-items-center">
                 <x-feathericon-archive />
                 <span class="span-sidebar">

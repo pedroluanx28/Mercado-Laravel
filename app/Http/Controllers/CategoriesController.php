@@ -15,4 +15,11 @@ class CategoriesController extends Controller
 
         return redirect()->route('dashboard');
     }
+
+    public function index(Category $category)
+    {
+        $categories = $category->paginate(5);
+
+        return view('Pages/Categories', compact('categories'));
+    }
 }
